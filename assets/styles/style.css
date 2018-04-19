@@ -1,0 +1,150 @@
+body{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu{
+    display: inline-flex;
+    position: relative;
+    top: 15px;
+    align-items: center;    
+    text-transform: uppercase;
+}
+.menu-item{
+    border: 1px solid #DBDBDB;
+    width: 150px;
+    text-align: center;
+    margin: 5px;
+    background: linear-gradient(#F1F1F1, #D8D8D8) ;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.menu-item a{
+   text-decoration: none;
+   color: #345764;
+   font-weight: 600;
+}
+
+.menu-item:hover{
+    background: #436571;
+}
+
+.menu-item:hover a{
+    color: white;
+}
+
+.carousel{
+    background: #D6E1E5;
+    margin-top: 100px;
+    height: 415px;
+    border: 1px solid #DBDBDB;
+}
+
+.carousel-pics{    
+    display: flex;
+    padding-left: 30px;
+    justify-content: space-between;
+    position: relative;
+    top: -50px;
+}
+
+.circle-item img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #DBDBDB;
+    padding: 3px;
+    margin-left: 30px;
+    background: white;   
+}
+
+.carousel-content{
+    position: relative;
+    top: -300px;
+    width: 60%;
+    padding-left: 30px;
+}
+
+.carousel-content-heading{
+    color: #374B4A;
+    line-height: 10px;
+}
+
+.carousel-content-paragraph{
+    color: rgb(124, 145, 153);
+}
+
+.carousel-content-paragraph a{
+    text-decoration: underline;
+    color: rgb(124, 145, 153);
+}
+
+.container{
+    display: flex;
+}
+
+.container-heading {
+    color: #374B4A;
+    text-transform: uppercase;    
+}
+
+.container-heading.space{    
+    word-spacing: 10px;
+}
+
+.blog{
+    flex-basis: 35%;
+}
+
+.content{
+
+}
+
+.ad{
+    flex-basis: 35%;
+}
+
+.blog, .content,.ad{
+    padding-left: 30px;
+}
+
+.blog-info{
+    color: rgb(161, 175, 180);
+}
+
+hr{
+    border: 3px dotted rgb(156, 171, 177);
+    border-style: none none dotted;
+}
+
+.footer{
+    display: flex;
+    background: rgb(240, 238, 238);
+    text-align: center;
+    flex-direction: column;
+}
+
+.countries{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(137, 150, 155); 
+}
+
+.footer-heading{
+    color: rgb(120, 133, 138);  
+    text-transform: uppercase;
+}
+
+.follow-us{
+    padding-top: 20px;
+}
+
+.copyright{
+    color: rgb(167, 178, 182); 
+}
